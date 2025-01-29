@@ -1,16 +1,16 @@
-Credit Card Fraud Detection
+# Credit Card Fraud Detection
 
-Business Problem
+## Business Problem
 
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques. The dataset consists of transactions labeled as fraudulent or legitimate, and the goal is to build a predictive model to minimize financial losses due to fraud.
 
-Dataset
+## Dataset
 
 The dataset contains transaction details such as time, amount, and anonymized features.
 
 It is highly imbalanced, with fraudulent transactions being a small percentage of the total.
 
-Technologies Used
+## Technologies Used
 
 Programming Language: Python
 
@@ -26,14 +26,14 @@ Dimensionality Reduction: PCA, t-SNE
 
 Model Evaluation: Classification metrics, ROC-AUC
 
-Installation
+## Installation
 
 Clone the repository:
 
 git clone https://github.com/your-username/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 
-Install dependencies:
+## Install dependencies:
 
 pip install -r requirements.txt
 
@@ -45,16 +45,14 @@ jupyter notebook Data_Science_project.ipynb
 
 The notebook walks through data preprocessing, model training, and evaluation.
 
-Results
+## Results
 
-The model is evaluated using accuracy, precision, recall, and ROC-AUC.
+Using the SMOTE technique on our dataset led to improved outcomes compared to Random Undersampling. Metrics such as the average precision-recall score, accuracy, and recall score were all enhanced with SMOTE. Based on these results, Logistic Regression performed better than the other classification algorithms evaluated.
 
-Techniques such as SMOTE are used to handle class imbalance.
-
-Contributing
+## Contributing
 
 Feel free to fork this repository and contribute improvements.
 
-License
+## License
 
 This project is licensed under the MIT License.
